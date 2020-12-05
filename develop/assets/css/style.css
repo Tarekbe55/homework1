@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* This will style all the elements in the <body> container**/
 body {
     background-color: #d9dcd6;
 }
 
+/* This will style all the elements in the <header> container**/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* Styling <h1> within <header> tag **/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This class styles the letters "seo" in <h1> in the header**/
 .seo {
     color: #d9dcd6;
 }
 
+/* Styling <div> within <header> tag **/
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +37,23 @@ header div {
     font-size: 20px;
 }
 
+/* Styling the unordered list within <div> tag in the <header> tag **/
 header div ul {
     list-style-type: none;
 }
 
+/* Styling the list items within <div> tag in the <header> tag **/
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styling all anchor tags**/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Styling all the paragraph tags **/
 p {
     font-size: 16px;
 }
@@ -59,22 +67,45 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* This will style all the elements in the <main> container**/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* combined all <section> slying within the <main> tag by assigning a class as they all have the same style **/
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling all images in the <main> tag since all service images have the same styling**/
+main img {
+    max-height: 200px;
+}
+/* Styles the img that is assigned to this class within each of the section tags **/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Styles the img that is assigned to this class within each of the section tags **/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styling all <h2> tags in the <main> tag since all the <h2> tags have the same styling**/
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This will style all the elements in the <aside> container**/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,51 +116,34 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Styling div with this class in aside tag **/
 .benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Styling all <h3> with this class since all the h3 within <aside> tag have the same styling**/
 .benefit-style h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styling all images with this class since all imgs within <aside> images have the same styling**/
 .benefit-style img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main img {
-    max-height: 200px;
-}
-
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styling the foorter tag **/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* Styling <h2> within <footer> tag **/
 footer h2 {
     font-size: 20px;
 }

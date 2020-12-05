@@ -23,3 +23,12 @@ Adjusted CSS file to account for the changes made to the changed tag as well as 
 
 Built with VS code
 
+## Screenshot
+
+![screenshot](develop/assets/screenshot/screenshot.png)
+
+## Deployed application link
+
+https://tarekbe55.github.io/homework1/
+
+Tarek Behairy
